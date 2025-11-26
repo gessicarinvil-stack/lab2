@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+=======
+>>>>>>> 0e48468 (first commit)
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Question"
+<<<<<<< HEAD
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+=======
+        android:layout_width="357dp"
+        android:layout_height="98dp"
+>>>>>>> 0e48468 (first commit)
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+<<<<<<< HEAD
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="508dp"
+        android:gravity="center"
+        android:text="Qui est le recteur actuel de l'universite UPNIP ?"
+        android:textSize="40sp"
+        android:visibility="visible"
+=======
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="588dp"
+        android:gravity="center"
+        android:text="Comment vas tu"
+        android:visibility="visible"
+        android:textSize="30sp"
+>>>>>>> 0e48468 (first commit)
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Reponse"
+<<<<<<< HEAD
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+=======
+        android:layout_width="367dp"
+        android:layout_height="86dp"
+        android:layout_below="@+id/Question"
+>>>>>>> 0e48468 (first commit)
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+<<<<<<< HEAD
+        android:text="Recteur Yves Voltaire"
+        android:layout_below="@+id/Reponse"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:visibility="invisible"
+        />
+=======
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="491dp"
+        android:gravity="center"
+        android:text="Je vais bien"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/iconmonstr_plus_circle_thin" />
+>>>>>>> 0e48468 (first commit)
+
+</RelativeLayout>

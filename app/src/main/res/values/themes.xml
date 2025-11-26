@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<<<<<<< HEAD
+    <style name="Base.Theme.Fritzson" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.Gessoo3" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 0e48468 (first commit)
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<<<<<<< HEAD
+    <style name="Theme.Fritzson" parent="Base.Theme.Fritzson" />
+=======
+    <style name="Theme.Gessoo3" parent="Base.Theme.Gessoo3" />
+>>>>>>> 0e48468 (first commit)
+</resources>
